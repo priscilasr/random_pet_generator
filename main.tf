@@ -1,11 +1,3 @@
-terraform {
-  required_providers {
-    random = {
-      source = "hashicorp/random"
-      version = "3.1.2"
-    }
-  }
-}
 
 # see https://registry.terraform.io/providers/paultyng/twitter/latest/docs/resources/list
 resource "twitter_list" "hashitalks" {
