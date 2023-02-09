@@ -14,7 +14,7 @@ output "a-decimal" {
 }
 
 output "a-list" {
-  value       = ["This is the first element of the list, here is the link: https://developer.hashicorp.com/terraform/tutorials/aws-get-started and this is some text after it to test out what is happening here. Let's put another link as well https://developer.hashicorp.com/packer/docs/commands/build and some more text after this", "https://developer.hashicorp.com/terraform/tutorials/aws-get-started", "https://developer.hashicorp.com/terraform/tutorials/aws-get-started", "https://developer.hashicorp.com/packer/docs/commands/build"]
+  value       = ["example", 1001, 1000.1]
   description = "The private integer of the main server instance."
 }
 
