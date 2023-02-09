@@ -14,7 +14,7 @@ output "a-decimal" {
 }
 
 output "a-list" {
-  value       = ["example", 1001, 1000.1]
+  value       = ["https://flight-hashicorp.vercel.app/engineering#use-react", "https://flight-hashicorp.vercel.app", "The private integer of the main server instance. https://flight-hashicorp.vercel.app/engineering#use-react The private integer of the main server instance."]
   description = "The private integer of the main server instance."
 }
 
