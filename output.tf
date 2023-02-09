@@ -14,7 +14,7 @@ output "a-decimal" {
 }
 
 output "a-list" {
-  value       = ["example", 1001, 1000.1]
+  value       = ["https://developer.hashicorp.com/terraform/tutorials/aws-get-started", "https://developer.hashicorp.com/packer/docs/commands/build"]
   description = "The private integer of the main server instance."
 }
 
