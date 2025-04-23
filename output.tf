@@ -18,6 +18,11 @@ output "a-list" {
   description = "The private integer of the main server instance."
 }
 
+output "a-url" {
+  value       = "https://flight-hashicorp.vercel.app/engineering#use-react"
+  description = "The private integer of the main server instance."
+}
+
 output "a-map" {
   value       = { "example" : 1001, "bar" : 1000.1 }
   description = "The private integer of the main server instance."
